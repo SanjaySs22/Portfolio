@@ -1,0 +1,47 @@
+.Footer{
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgb(19, 19, 19);
+
+}
+.Fo-Container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+}
+.address{
+    display: flex;
+    margin-bottom: 10px;
+    /* flex-direction: column; */
+}
+.address p{
+    line-height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.right{
+    height: 100%;
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.Social{
+    margin-top: 16px;
+}
+p{
+    font-size: 16px;
+}
+h4{
+    font-size: 20px;
+}
